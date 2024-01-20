@@ -84,5 +84,5 @@ There are a number of classic Network Types that can be used to characterize the
 (b) <b>Small world networks</b>: very efficient for information transfer in that most nodes are not connected (so a high degree of clustering), but also have a relatively short average path length between actors.  
 (c) <b>Random networks</b>: robust to disruptions, but may be difficult for people to maintain, especially if ties are across long distances.  
   
-  
-Works Cited: Denny, Matthew. (2014). Social Network Analysis. Matt Denny's Academic Website. http://www.mjdenny.com/workshops/SN_Theory_I.pdf.
+Works Cited  
+Denny, Matthew. (2014). Social Network Analysis. Matt Denny's Academic Website. http://www.mjdenny.com/workshops/SN_Theory_I.pdf.  
