@@ -18,9 +18,9 @@
 
 ## Types of Social Network Data  
 <b>Sociomatrix</b> (i.e., adjacency matrix): a way of representing directed or undirected ties between actors using a numerical matrix.  
-&#8226; There is one column for each actor and one row for each actor. (i.e., [row i, column j])  
-&#8226; The diagonal elements of this matrix (e.g., second row, second column) are always equal, signaling that actors do not tie to themselves.  
-&#8226; this format is very ready for many statistical analyses, but it can take up a lot of space and be difficult to enter data into by hand.  
+&#8226; one column for each actor and one row for each actor. (i.e., [row i, column j])  
+&#8226; the diagonal elements of this matrix (e.g., second row, second column) are always equal, signaling that actors do not tie to themselves.  
+&#8226; very ready for many statistical analyses, but can take up a lot of space and be difficult to enter data into by hand.  
 
 <b> Edgelist</b>: only captures information about existing ties so it needs to be supplemented with knowledge of the total number of actors in the network.  
 &#8226; efficient data storage and easy to enter, but needs to use a common naming system and keep track of any nodes that do not have any ties to them.
