@@ -64,6 +64,8 @@
 ## Network Properties  
 All the properties discussed above refer to individual actors or subsets of actors in a network. Network properties are important because they tell you about how actors in the network behavior and function as a whole.  
 
+<b>Network Density</b>: the number of edges divided by the total number of possible edges (possible edges mean the maximum number of edges physically and mathematically allwed to the given number of vertices)  
+
 <b>Centralization</b> (degree, betweenness, closeness, eigenvector, etc.): a measure of the unevenness of the centrality scores of actors in a network.  
 &#8226; ranges from zero, when every actor is just as central, to 1, when one node is maximally central and all others are minimally central.  
 &#8226; a good way to express the idea that there are couple of very powerful or important actors in a network or that power/importance is spread out evenly in one simple measure.  
@@ -73,6 +75,7 @@ All the properties discussed above refer to individual actors or subsets of acto
 <b>Homophily</b>:  a process where actors who are similar on a particular trait are more likely to form ties. The opposite of homophily is Heterophily, which refers to a process whereby actors who are different from each other are more likely to form ties.  
 
 <b>Modularity</b>: a measure of the degree to which a network displays <b>Community Structure</b>, with clusters that are not densely connected to others but densely connected within cluster.  
+&#8226; The Louvain method is one of the variations of modularity optimization techniques  
 &#8226; very difficult to calculate, but provides a way to identify community structure on a network where where one is unsure if such a structure exists  
 
 <b>Diameter</b>: the longest of all the calculated shortest paths between actors. Network diameter gives us an idea about how easily reachable actors are on a network.  
